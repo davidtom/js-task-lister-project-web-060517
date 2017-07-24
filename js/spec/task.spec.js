@@ -25,7 +25,7 @@ describe("Task Model", function() {
     describe("id", function() {
 
       it("should be assigned an autoincremented id when a new Task is created", function() {
-        expect(task.id).toBe(0);
+        expect(task.id).toBe(2); //changed from 0 to 2, because there are 2 tasks created before this!!
       });
     });
 
